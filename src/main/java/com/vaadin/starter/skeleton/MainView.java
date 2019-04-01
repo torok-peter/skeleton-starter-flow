@@ -23,9 +23,9 @@ public class MainView extends VerticalLayout {
 
     @Override
     protected void onAttach(AttachEvent attachEvent) {
-        getUI().get().getPage().addHtmlImport("/frontend/a.html");
+        getUI().get().getPage().addHtmlImport("/frontend/client-select.html");
 
-        Element elem = new Element("my-elem");
+        Element elem = new Element("client-select");
         getElement().appendChild(elem);
     }
 }

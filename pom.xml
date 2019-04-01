@@ -137,6 +137,17 @@
                         <version>${vaadin.version}</version>
                         <executions>
                             <execution>
+                                <!--  configuration>
+                                    <fragments>
+                                        <fragment>
+                                            <name>client-select</name>
+                                            <files>
+                                                <file>client-select.html</file>
+                                            </files>
+                                        </fragment>
+                                    </fragments>
+                                    <minify>false</minify>
+                                </configuration-->
                                 <goals>
                                     <goal>copy-production-files</goal>
                                     <goal>package-for-production</goal>
