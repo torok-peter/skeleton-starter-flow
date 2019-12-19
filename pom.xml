@@ -16,7 +16,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <failOnMissingWebXml>false</failOnMissingWebXml>
 
-        <vaadin.version>14.1.3</vaadin.version>
+        <vaadin.version>14.2-SNAPSHOT</vaadin.version>
 
         <drivers.downloader.phase>pre-integration-test</drivers.downloader.phase>
     </properties>
@@ -40,7 +40,23 @@
                 <enabled>false</enabled>
             </snapshots>
         </repository>
+        <repository>
+            <id>snapshot</id>
+            <url>https://oss.sonatype.org/content/repositories/vaadin-snapshots/</url>
+        </repository>
     </repositories>
+         
+    <pluginRepositories>
+        <pluginRepository>
+            <id>snapshot</id>
+            <url>https://oss.sonatype.org/content/repositories/vaadin-snapshots/</url>
+        </pluginRepository>
+        <pluginRepository>
+            <id>pre-release</id>
+            <url>https://maven.vaadin.com/vaadin-prereleases/com/vaadin/</url>
+        </pluginRepository>
+
+    </pluginRepositories>
 
     <dependencyManagement>
         <dependencies>
