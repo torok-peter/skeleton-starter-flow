@@ -1,1 +1,1 @@
-web: java -jar target/starter_app-2.0-SNAPSHOT.jar $PORT
+web: java -jar target/project-base-1.0-SNAPSHOT.jar $PORT
