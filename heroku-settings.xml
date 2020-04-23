@@ -9,6 +9,6 @@
 
     <activeProfiles>
         <activeProfile>production</activeProfile>
-        <activeProfile>heroku</activeProfile>
+        <activeProfile>npm</activeProfile>
     </activeProfiles>
 </settings>
